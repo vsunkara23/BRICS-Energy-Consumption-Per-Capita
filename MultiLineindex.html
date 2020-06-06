@@ -1,0 +1,63 @@
+<!DOCTYPE html>
+<html> 
+    
+  <head>
+    <!-- Meta Tag -->
+    <meta charset="utf-8">
+    <!-- CSS Stylesheet -->
+    <link rel="stylesheet" type="text/css" href="MultiLinestylesheet.css">
+    <!-- D3.js Source -->
+    <script type= "text/javascript" src="https://d3js.org/d3.v5.min.js"></script> 
+  </head>
+    
+  <body>
+    <!--Changing Title-->
+    <h4 style = "text-align:center; color:#1c4966"><bold>Energy Consumption Per Capita</bold></h4>
+    <!-- D3.js code for making a Multiline Chart-->
+    <svg width="960" height="500"></svg>
+    <script type="text/javascript" src="MultilineChart.js"></script>  
+    <line x1="100" y1="0" x2="100" y2="100" stroke="black"/>
+    <p style = "text-align:center"> (2000-2014 EPC for 6 Countries in Million BTUs Per Person)</p>
+    <!--Vertical spacing-->
+    &nbsp;
+    &nbsp; 
+    <!--Checkboxes Form For Countries.-->
+    <form>
+        <input type="checkbox" name="countries" value="Brazil" checked= "checked">
+        <label>
+        Brazil
+        </label>
+        <input type="checkbox" name="countries" value="Russia" checked= "checked">
+        <label>
+        Russia
+        </label>
+        <input type="checkbox" name="countries" value="India" checked= "checked">
+        <label>
+        India
+        </label>
+        <input type="checkbox" name="countries" value="China" checked= "checked">
+        <label>
+        China
+        </label>
+        <input type="checkbox" name="countries" value="South Africa" checked= "checked">
+        <label>
+        South Africa
+        </label>
+        <input type="checkbox" name="countries" value="United States" checked= "checked">
+        <label>
+        United States
+        </label>
+        
+    </form>  
+
+    <h4>Created by Vishal Sunkara</h4>
+    <!-- Create a list using <ul> and <li> tag -->   
+    <!--<ul>
+      <li>MultiLineindex.html</li>
+      <li>MultilineChart.js</li>
+      <li>MultiLinestylesheet.css</li>
+      <li>BRICSdata.csv</li>
+    </ul>-->
+  </body>
+    
+</html>
