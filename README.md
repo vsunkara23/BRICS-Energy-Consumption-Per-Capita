@@ -1,3 +1,3 @@
-Multi-line Chart in D3.js for visualizing 2000-2014 Energy Consumption per Capita for Brazil, Russia, India, China, South Africa, United States.
+Multi-line Chart in D3.js visualizing 2000-2014 Energy Consumption per Capita for 6 Countries(Brazil, Russia, India, China, South Africa, United States) in Million BTUs Per Person (D3.js V5)
 
 https://vsunkara23.github.io/BRICS-Energy-Consumption-Per-Capita/MultiLineindex.html
